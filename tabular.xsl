@@ -121,17 +121,7 @@
                                         <div class="col-4 border rounded-end mb-3 p-3">Linked Open
                                             Data</div>
                                     </div>
-                                    <!--<div class="row">
-                                        <div class="col-6 text-end">
-                                            <div class="btn btn-outline-secondary m-3 ">
-                                                Zurück</div>
-                                        </div>
-                                        <div class="col-6 text-start">
-                                            <div class="btn btn-outline-secondary m-3">
-                                                Nächster</div>
-                                        </div>
-                                    </div>-->
-                                </div>
+                                   </div>
                             </div>
                         </div>
                     </div>
