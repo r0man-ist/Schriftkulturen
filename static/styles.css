@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+   
+}
+
+.nav-bsw {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.bg-sides {
+    background-color: #394974;
+    height: 100vh;
+}
+
+.rouge-script-regular {
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

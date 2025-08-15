@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hdschr. 396</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>In TEI codiert 2025.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Kurt Heydeck, Die Handschriften der Signaturenreihe Hdschr. der Staatsbibliothek zu
+               Berlin Preußischer Kulturbesitz. Teil 3, Hdschr. 301-456, Wiesbaden 2021, S.
+               178f.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</repository>
+                  <idno>Hdschr. 396</idno>
+               </msIdentifier>
+               <head><title>Rudolf von Ems: Weltchronik</title><note>Papier in 2° - 4 Bl. - 41-41,5
+                     x 29 - <origPlace>hochalemannisches Sprachgebiet</origPlace> - <origDate>um
+                        1400</origDate></note></head>
+               <msContents>
+                  <msItem>
+                     <locus>17r/v, 85r/v, 103r/v, 123r/v</locus>
+                     <author><persName ref="http://d-nb.info/gnd/118603736">Rudolf von
+                           Ems</persName></author>
+                     <title>Weltchronik</title>
+                     <note>Textumfang: Vers 1216-1350 (Bl. 17), 16490 bis 16615 (Bl. 85),
+                        19191-19317 (Bl. 103), 23667-23800 (Bl. 123). - Ed. <bibl>Gustav Ehrismann,
+                           Rudolfs von Ems Weltchronik. Aus der Wernigeroder Handschrift. Berlin
+                           1915 (Deutsche Texte des Mittelalters 20; Nachdruck Dublin-Zürich
+                           1967).</bibl> - <bibl>Wolfgang Walliczek, Artikel 'Rudolf von Ems', in:
+                           2VL 8, Sp. 322-345, hier Sp. 338-342 (VI.); 11, Sp. 1344f., hier Sp.
+                           1345.</bibl> - Zur Überlieferung siehe HSC, Werke, Nr. 322.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Bl. 17, 85, 103 und 123 aus der Hs. Colmar, Bibliothèque de la Ville, Depositum
+                     Musée Bartholdi.</p>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Wasserzeichen vom Typ waagrechte Waage ohne Beizeichen, mit
+                           geraden, dreieckigen Schalen und 8-förmiger Aufhängung, datiert in der
+                           Sammlung Piccard vom Ende des 14. Jhs. bis zur Mitte des 15. Jhs., hier
+                           am ehesten Piccard, WZK, Nr. 116055 (Leuven, 1418)
+                           entsprechend.</support>
+                        <foliation>Bleistiftfoliierung von Lévy (Günther, aaO, S. 127).</foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Schriftraum 28,5x17,5-18. 2 Spalten. 38-43 Zeilen, abgesetzte
+                           Verse.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <scriptDesc>
+                     <scriptNote>Textualis</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>Versalien mit rotem Zierstrich; 2zeilige alternierend rote udn blaue
+                        Lombardinitialen; <locus
+                           facs="https://content.staatsbibliothek-berlin.de/dc/1783054735-0004/full/full/0/default.jpg"
+                           >17vb</locus>, 85vab, 103vb, 123rb und 123va lavierte Federzeichnungen
+                        (zu den Bildthemen siehe Günther, aaO, S. 129-131).</decoNote>
+                  </decoDesc>
+                  <bindingDesc>
+                     <p>mod. Leineneinband.</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <summary>Schreibsprache: Hochalemannisch (Lévy).</summary>
+                  <origin>In der Frage der Lokalisierung teilt sich die unten zitierte Literatur in
+                     zwei Lager; wer die Schriftheimat benennt (stets Elsaß, zuerst im
+                     Auktionskatalog), verzichtet auf die Angabe der Schreibsprache und umgekehrt.
+                     Lévy, aaO, S. 585, nennt den Schreiber einen Schweizer; seine Datierung, Mitte
+                     des 15. Jhs. ("ou un peu après", ebd.), ist von der jüngeren Forschung aus
+                     kodikologischen Gründen auf 'um 1400' (Günther, Brandis, Michael u.a.) bzw.
+                     'Ende 14. Jh.' (Jaurant, aaO, S. 91, Anm. 305; Plate) korrigiert
+                     worden.</origin>
+                  <provenance>Die Colmarer Hs. stammt aus dem Besitz des französischen Bildhauers
+                     Frédéric-Auguste Bartholdi (*1834, +1904), siehe Günther, aaO, S. 126f. Die
+                     vorliegenden Bll. (und zwei weitere, heute in der Landesbibliothek Bregenz, als
+                     Hs. Fr. 1a-b [früher Hs. Fr. 85a-b] aufbewahrte Bll.) können, da sie die von
+                     Lévy angebrachte Foliierung aufweisen, erst nach 1909 der Hs. entnommen worden
+                     sein (die aus dem Auktionshaus an Günther [S. 127] gegebene Auskunft, die Bll.
+                     hätten sich seit 1940 in einer südfranzösischen Schloßbibliothek befunden, ist
+                     ohne Beleg wertlos).</provenance>
+                  <acquisition>Im Vorderdeckel oben Bleistifteinträge von Jörn Günther zum Inhalt,
+                     zu anderen Fragmenten der früheren Hs., die handschriftl. Signatur Günthers ist
+                     hier radiert, unten sein Exlibris mit der Signatur MS 15. - 1993 erworben
+                     (siehe Hdschr. 382).</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Ernest Lévy, Un manuscrit de la 'Chronique Universelle' de Rudolf von
+                        Ems, in: Revue germanique 5 (1909), S. 551-585.</bibl>
+                     <bibl>Hartung und Karl, Auktion 49. München, 7.-9. Mai 1985, S. 18, Nr. 64-67
+                        (bei dieser Auktion Hdschr. 240 erworben.)</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </listBibl>
+      </body>
+   </text>
+</TEI>
