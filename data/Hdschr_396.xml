@@ -9,7 +9,8 @@
             <title>Hdschr. 396</title>
          </titleStmt>
          <publicationStmt>
-            <p>In TEI codiert 2025.</p>
+            <p>TEI-Codierung im Rahmen des Graduiertenworkshops "Schriftkulturen des Mittelalters in
+               digitaler Perspektive" (2025).</p>
          </publicationStmt>
          <sourceDesc>
             <p>Kurt Heydeck, Die Handschriften der Signaturenreihe Hdschr. der Staatsbibliothek zu
@@ -66,7 +67,7 @@
                      <scriptNote>Textualis</scriptNote>
                   </scriptDesc>
                   <decoDesc>
-                     <decoNote>Versalien mit rotem Zierstrich; 2zeilige alternierend rote udn blaue
+                     <decoNote>Versalien mit rotem Zierstrich; 2zeilige alternierend rote und blaue
                         Lombardinitialen; <locus
                            facs="https://content.staatsbibliothek-berlin.de/dc/1783054735-0004/full/full/0/default.jpg"
                            >17vb</locus>, 85vab, 103vb, 123rb und 123va lavierte Federzeichnungen
@@ -77,15 +78,14 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <summary>Schreibsprache: Hochalemannisch (Lévy).</summary>
-                  <origin>In der Frage der Lokalisierung teilt sich die unten zitierte Literatur in
-                     zwei Lager; wer die Schriftheimat benennt (stets Elsaß, zuerst im
-                     Auktionskatalog), verzichtet auf die Angabe der Schreibsprache und umgekehrt.
-                     Lévy, aaO, S. 585, nennt den Schreiber einen Schweizer; seine Datierung, Mitte
-                     des 15. Jhs. ("ou un peu après", ebd.), ist von der jüngeren Forschung aus
-                     kodikologischen Gründen auf 'um 1400' (Günther, Brandis, Michael u.a.) bzw.
-                     'Ende 14. Jh.' (Jaurant, aaO, S. 91, Anm. 305; Plate) korrigiert
-                     worden.</origin>
+                  <origin><p>Schreibsprache: Hochalemannisch (Lévy).</p><p>In der Frage der
+                        Lokalisierung teilt sich die unten zitierte Literatur in zwei Lager; wer die
+                        Schriftheimat benennt (stets Elsaß, zuerst im Auktionskatalog), verzichtet
+                        auf die Angabe der Schreibsprache und umgekehrt. Lévy, aaO, S. 585, nennt
+                        den Schreiber einen Schweizer; seine Datierung, Mitte des 15. Jhs. ("ou un
+                        peu après", ebd.), ist von der jüngeren Forschung aus kodikologischen
+                        Gründen auf 'um 1400' (Günther, Brandis, Michael u.a.) bzw. 'Ende 14. Jh.'
+                        (Jaurant, aaO, S. 91, Anm. 305; Plate) korrigiert worden.</p></origin>
                   <provenance>Die Colmarer Hs. stammt aus dem Besitz des französischen Bildhauers
                      Frédéric-Auguste Bartholdi (*1834, +1904), siehe Günther, aaO, S. 126f. Die
                      vorliegenden Bll. (und zwei weitere, heute in der Landesbibliothek Bregenz, als

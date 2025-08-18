@@ -7,9 +7,7 @@
                     rel="stylesheet"
                     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
                     crossorigin="anonymous"/>
-                <link rel="preconnect" href="https://fonts.googleapis.com"/>
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
-                <link href="https://fonts.googleapis.com/css2?family=Rouge+Script" rel="stylesheet"/>
+
                 <link rel="stylesheet" href="./../static/styles.css"/>
 
             </head>
@@ -32,7 +30,7 @@
                     <div class="col-2 bg-sides"/>
                     <div class="col-8 ">
                         <div class="row text-center">
-                            <h1 class="display-1 mt-5 mb-5 rouge-script-regular">
+                            <h1 class="display-1 mt-5 mb-5">
                                 <xsl:apply-templates select="//t:teiHeader//t:title"/>
                             </h1>
                         </div>
@@ -61,27 +59,22 @@
                                             <xsl:apply-templates select="//t:body//t:repository"/>
                                                 (<xsl:apply-templates select="//t:body//t:idno"/>) <br/>
                                             <b>Titel: </b>
-                                            <xsl:apply-templates select="//t:body//t:head/t:title"/>
-                                                [<xsl:apply-templates
-                                                select="//t:body//t:head/t:note"/>] <br/>
-                                            <b>Enthält: </b>
-                                            <xsl:apply-templates select="//t:body//t:msItem/t:locus"/>
+                                            <xsl:apply-templates select="//t:body//t:head/t:title"/><br/>
+                                            <xsl:apply-templates select="//t:body//t:head/t:note"/>
                                             <br/>
                                             <b>Autor: </b>
-                                            <xsl:apply-templates
-                                                select="//t:body//t:msItem/t:author/t:persName"/>
+                                            <xsl:variable name="author-url"
+                                                select="//t:body//t:msItem/t:author/t:persName/@ref"/>
+                                            <a href="{$author-url}"><xsl:apply-templates
+                                                  select="//t:body//t:msItem/t:author/t:persName"
+                                                /></a>
+                                            <br/> <br/>
+                                            <b>Inhalt: </b><br/>
+                                            <xsl:apply-templates select="//t:body//t:msItem/t:locus"/>
                                             <br/>
-                                            <b>Buchschmuck: </b>
-                                            <table><tr><td><xsl:apply-templates
-                                                  select="//t:body//t:decoDesc/t:decoNote"
-                                                  /></td><td>
-                                                      <xsl:variable name="image-url"
-                                                          select="//t:decoNote/t:locus/@facs"/><figure><figcaption><xsl:apply-templates
-                                                                      select="//t:decoNote/t:locus"/></figcaption><img
-                                                  src="{$image-url}" width="300px"
-                                                /></figure></td></tr></table>
-                                            <br/>
-                                            <b>Materielle Eigenschaften: </b>
+                                            <xsl:apply-templates select="//t:body//t:msItem/t:note"/><br/> <br/>
+                                            <b>Äußeres:</b> <br/>
+                                                <xsl:apply-templates select="//t:body//t:physDesc/t:p"/><br/>
                                             <xsl:apply-templates
                                                 select="//t:body//t:supportDesc/t:support"/>
                                             <br/>
@@ -91,23 +84,43 @@
                                             <xsl:apply-templates
                                                 select="//t:body//t:layoutDesc/t:layout"/>
                                             <br/>
-                                            <b>Provenienz: </b>
+                                            <xsl:apply-templates
+                                                select="//t:body//t:scriptDesc/t:scriptNote"/>
+                                            
+                                            <table><tr><td><xsl:apply-templates
+                                                  select="//t:body//t:decoDesc/t:decoNote"/></td><td>
+                                                  <xsl:variable name="image-url"
+                                                  select="//t:decoNote/t:locus/@facs"
+                                                  /><figure><figcaption><xsl:apply-templates
+                                                  select="//t:decoNote/t:locus"/></figcaption><img
+                                                  src="{$image-url}" width="300px"
+                                                  /></figure></td></tr></table>
+                                            <br/>
+                                            <xsl:apply-templates
+                                                select="//t:body//t:bindingDesc/t:p"/>
+                                            
+                                            <br/> <br/>
+                                            <b>Geschichte: </b><br/>
+                                            <xsl:apply-templates
+                                                select="//t:body//t:history/t:origin"/>
+                                            <br/>
                                             <xsl:apply-templates
                                                 select="//t:body//t:history/t:provenance"/>
                                             <br/>
                                             <xsl:apply-templates
                                                 select="//t:body//t:history/t:acquisition"/>
-                                            <br/>
-                                            <b>Bibliographie: </b>
-                                            <ul><xsl:for-each select="//t:body//t:additional/t:listBibl/t:bibl"><li><xsl:apply-templates
-                                                select="."/></li></xsl:for-each></ul>
-                                            
+                                            <br/><br/>
+                                            <b>Literatur: </b>
+                                            <ul><xsl:for-each
+                                                  select="//t:body//t:additional/t:listBibl/t:bibl"
+                                                  ><li><xsl:apply-templates select="."
+                                                  /></li></xsl:for-each></ul>
                                         </div>
                                         <div class="col-4 border rounded-end mb-3 p-3">TEI
                                             Body</div>
                                     </div>
 
-                                    
+
                                     <div class="row">
                                         <div class="col-8 border rounded-start mb-3 p-3">
                                             <xsl:for-each select="//t:persName">
@@ -121,7 +134,7 @@
                                         <div class="col-4 border rounded-end mb-3 p-3">Linked Open
                                             Data</div>
                                     </div>
-                                   </div>
+                                </div>
                             </div>
                         </div>
                     </div>
