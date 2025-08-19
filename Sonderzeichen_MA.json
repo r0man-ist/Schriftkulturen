@@ -1,0 +1,177 @@
+{
+    "version": "0.1",
+    "name": "Sonderzeichen (MA)",
+    "author": "",
+    "characters": [
+        {
+            "row": 0,
+            "column": 0,
+            "character": "ſ"
+        },
+        {
+            "row": 1,
+            "column": 0,
+            "character": "ͣ"
+        },
+        {
+            "row": 1,
+            "column": 1,
+            "character": "ͤ"
+        },
+        {
+            "row": 1,
+            "column": 2,
+            "character": "ͦ"
+        },
+        {
+            "row": 1,
+            "column": 3,
+            "character": "ͮ"
+        },
+        {
+            "row": 1,
+            "column": 4,
+            "character": "ͥ"
+        },
+        {
+            "row": 0,
+            "column": 1,
+            "character": "¨"
+        },
+        {
+            "row": 0,
+            "column": 2,
+            "character": "^"
+        },
+        {
+            "row": 0,
+            "column": 3,
+            "character": "́"
+        },
+        {
+            "row": 0,
+            "column": 4,
+            "character": "̀"
+        },
+        {
+            "row": 0,
+            "column": 5,
+            "character": "̄"
+        },
+        {
+            "row": 0,
+            "column": 6,
+            "character": "͠"
+        },
+        {
+            "row": 1,
+            "column": 5,
+            "character": "˛"
+        },
+        {
+            "row": 0,
+            "column": 7,
+            "character": "͛"
+        },
+        {
+            "row": 0,
+            "column": 8,
+            "character": "̕"
+        },
+        {
+            "row": 3,
+            "column": 9,
+            "character": "ꝟ"
+        },
+        {
+            "row": 3,
+            "column": 0,
+            "character": "ꝯ"
+        },
+        {
+            "row": 3,
+            "column": 1,
+            "character": "ꝰ"
+        },
+        {
+            "row": 3,
+            "column": 2,
+            "character": "ꝑ"
+        },
+        {
+            "row": 3,
+            "column": 3,
+            "character": "ꝓ"
+        },
+        {
+            "row": 3,
+            "column": 4,
+            "character": "ꝕ"
+        },
+        {
+            "row": 3,
+            "column": 5,
+            "character": "ꝗ"
+        },
+        {
+            "row": 3,
+            "column": 6,
+            "character": "ꝙ"
+        },
+        {
+            "row": 3,
+            "column": 7,
+            "character": "ꝛ"
+        },
+        {
+            "row": 3,
+            "column": 8,
+            "character": "ꝝ"
+        },
+        {
+            "row": 1,
+            "column": 6,
+            "character": "·"
+        },
+        {
+            "row": 1,
+            "column": 7,
+            "character": "¶"
+        },
+        {
+            "row": 1,
+            "column": 8,
+            "character": "̶"
+        },
+        {
+            "row": 1,
+            "column": 9,
+            "character": "̣"
+        },
+        {
+            "row": 2,
+            "column": 0,
+            "character": "ꝫ"
+        },
+        {
+            "row": 2,
+            "column": 1,
+            "character": "ẜ"
+        },
+        {
+            "row": 2,
+            "column": 2,
+            "character": "⁊"
+        },
+        {
+            "row": 2,
+            "column": 3,
+            "character": "℟"
+        },
+        {
+            "row": 2,
+            "column": 4,
+            "character": "℣"
+        }
+    ]
+}
