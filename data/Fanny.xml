@@ -12,8 +12,8 @@
             <p>Als Beispiel für den Sommerkurs Manuskriptkulturen des Mittelalters</p>
          </publicationStmt>
          <sourceDesc>
-            <bibl><ref>https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN1878144588&amp;PHYSID=PHYS_0032&amp;DMDID=&amp;view=fulltext-parallel 
-            </ref></bibl>
+            <bibl><ref>https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN1878144588&amp;PHYSID=PHYS_0032&amp;DMDID=&amp;view=fulltext-parallel
+               </ref></bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -21,17 +21,21 @@
       <body>
          <!-- Mehr text -->
          <p>
-            <lb/>Sah<choice><orig>ſ</orig><reg type="typography">s</reg></choice>t du je ein zarter Ding
-            <lb/>als mein Papier, <unclear reason="damage" cert="medium">mit einer</unclear>
-            <lb/>eigneren Klaue d<supplied reason="damaged" cert="medium">arau</supplied>f
-            <lb/>als meine? Laß di<supplied reason="damage" cert="high">r</supplied> das
-            <lb/>ein Wink mit einem Later-
-            <lb/>nenpfahl
-               <choice>
-                  <orig>
-                     <choice>
-                        <orig>ſ</orig ><reg type="typography">s</reg></choice>eyn</orig>
-                  <reg type="modernization">sein</reg></choice>, mir heut<lb/></p>
+            <lb/>Sah<choice>
+               <orig>ſ</orig>
+               <reg type="typography">s</reg>
+            </choice>t du je ein zarter Ding <lb/>als mein Papier, <unclear reason="damage"
+               cert="medium">mit einer</unclear>
+            <lb/>ärgeren Klaue d<supplied reason="damaged" cert="medium">arau</supplied>f <lb/>als
+            meine? Laß di<supplied reason="damage" cert="high">r</supplied> das <lb/>ein Wink mit
+            einem Later- <lb/>nenpfahl <choice>
+               <orig>
+                  <choice>
+                     <orig>ſ</orig>
+                     <reg type="typography">s</reg>
+                  </choice>eyn</orig>
+               <reg type="modernization">sein</reg>
+            </choice>, mir heut<lb/></p>
          <!-- Mehr text -->
       </body>
    </text>
