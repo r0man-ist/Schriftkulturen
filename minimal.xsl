@@ -18,8 +18,8 @@
         <br>
             <xsl:apply-templates/>
         </br>
-    </xsl:template>-->
-
+    </xsl:template>
+-->
 
 <!--    <!-\- don't render anything from header -\->
     <xsl:template match="t:teiHeader"/>-->
@@ -30,16 +30,16 @@
         <span style="color: gray;" title="Unklar">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>-->
-    
+    </xsl:template>
+    -->
     
 <!--    <!-\- render unclear text in red and add tooltip -\->
     <xsl:template match="t:supplied">
         <span style="color: red;" title="Fehlender Text ergänzt">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>-->
-
+    </xsl:template>
+-->
 <!--    <!-\- render regularization, don't render original -\->
     <xsl:template match="t:choice/t:reg">
         <xsl:apply-templates/>
